@@ -4,8 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 
 const routes: Routes = [
-  {path:'home',component:HomeComponent},
-  {path:'seller',component:SellerAuthComponent}
+  {path:'',component:HomeComponent},
+  {path:'seller-auth',component:SellerAuthComponent}
 ];
 
 @NgModule({
